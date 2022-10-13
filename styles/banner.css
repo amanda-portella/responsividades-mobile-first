@@ -44,4 +44,9 @@
         width: 35%;
         font-size: 24px;
     }
+
+    .banner__button:hover {
+        color: var(--roxo-claro);
+        background-color: var(--branco);
+    }
 }

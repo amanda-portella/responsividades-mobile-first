@@ -45,6 +45,7 @@
     border-radius: 10px;
     align-self: center;
     margin-top: 1em;
+    border: none;
 }
 
 .card__description {
@@ -83,6 +84,7 @@
     font-weight: 600;
     padding: 1em 2.2em;
     border-radius: 10px;
+    border: none;
 }
 
 .description__button-fav {
@@ -124,6 +126,11 @@
 
     .description__text, .description__button {
         font-size: 24px;
+    }
+
+    .card__button:hover, .description__button:hover {
+        color: var(--roxo-claro);
+        background-color: var(--branco);
     }
 }
 

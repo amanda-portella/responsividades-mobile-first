@@ -43,4 +43,9 @@
     .artists__link  {
         font-size: 20px;
     }
+
+    .artists__link:hover {
+        color: var(--roxo-claro);
+        background-color: var(--branco);
+    }
 }
