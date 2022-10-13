@@ -72,8 +72,17 @@
         font-size: 30px;
     }
 
+}
+
+@media screen and (min-width: 1728px) {
+
+    .header {
+        padding: 0 2em;
+    }
+
     .options {
         display: flex;
+        margin-right: auto;
     }
 
     .options__item {
@@ -109,17 +118,6 @@
     .menu-list__item:hover > .menu-list__link {
         color: var(--branco);
         text-decoration: none;
-    }
-}
-
-@media screen and (min-width: 1728px) {
-
-    .header {
-        padding: 0 2em;
-    }
-    
-    .options {
-        margin-right: auto;
     }
 
     .container__text {
